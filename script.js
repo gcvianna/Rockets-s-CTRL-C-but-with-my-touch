@@ -8,17 +8,17 @@ function toggleMode() {
   // substituir a imagem
   if (html.classList.contains("light")) {
     // se tiver light mode, adicionar imagem light
-    img.setAttribute("src", "./assets/avatar-light.png")
+    img.setAttribute("src", "./assets/avatar-light-mine.png")
     img.setAttribute(
       "alt",
-      "Foto de Mayk Brito sorrindo, usando óculos escuro e jaqueta preta, barba e fundo degradê."
+      "Foto de um dos operados do Forward Observations Group, usando capacete com óculos de visão noturna, camisa xadrez, equipamento militar e segurando um bolo de dinheiro na orelha."
     )
   } else {
     // se tiver sem light, manter a imagem atual
-    img.setAttribute("src", "./assets/avatar.png")
+    img.setAttribute("src", "./assets/avatar-mine.png")
     img.setAttribute(
       "alt",
-      "Foto de Mayk Brito sorrindo, usando óculos e camisa preta, barba e fundo amarelo."
+      "Foto de um integrante do Whitephosphor., usando óculos de visão noturna e equipamento militar, está de noite."
     )
   }
 }
